@@ -1,0 +1,170 @@
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.travel-text-box{
+    position: absolute;
+    /* width: 1140px; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.travel{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #ff7c40;
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.journey{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-style: italic;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.ipsum-header{
+    margin: 0;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 2rem; 
+   
+}
+
+.btn-btn-contact:link,
+.btn-btn-contact:visited{
+  text-decoration: none;
+  padding: 1rem 4rem;
+  font-size: 3rem;
+  background-color: #d35400;
+  color: #fff;
+  margin-right: 10%;
+  transition: background-color 0.9s;
+  
+}
+.btn-btn-contact:hover,
+.btn-btn-contact:active{
+   background-color: #27ae60;
+}
+
+/* Navigaton  Section */
+.logo,.design{
+    font-size: 2rem;
+    
+}
+.logo{
+    color: #fff;
+    width: auto;
+    float: left;
+    margin-left: 10rem;
+}
+.design{
+    width: auto;
+    float: left;
+    color: #d35400;
+    border-bottom: 0.2rem solid #d35400;
+    font-style: italic;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+}
+.logo,
+.design,
+.main-nav{
+    margin-top: 3rem;
+    
+}
+
+.main-nav li{
+    display: inline;
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-right: 4rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 0.8rem 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 0.2rem solid transparent;
+    transition: border-bottom 0.8s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 0.2rem solid #d35400;
+}
+
+/* Media queries */
+
+
+@media only screen and (max-width:768px){
+    .journey{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:730px){
+    .main-nav li {
+         display: none;
+        }
+        
+}
+@media only screen and (max-width:500px){
+    .main-nav li {
+         display: none;
+        }
+    .journey{
+        font-size: 1.5rem;
+    }
+
+    .ipsum-header{
+        font-size: 1rem;
+    }
+}
+    @media only screen and (max-width:425px){
+
+      
+        .main-nav li {
+            display: none;
+        }
+        .logo{
+            margin-left: 5rem;
+        }
+        .travel{
+            font-size: 2.5rem;
+           
+        }
+        .journey{
+            font-size: 1.5rem;
+            
+        }
+        .ipsum-header{
+            font-size: 1.3rem;
+        }
+
+        
+    }
+ 
+    @media only screen and (max-width:375px){
+        .btn-btn-contact:link,
+        .btn-btn-contact:visited{
+            padding: 1rem;
+            
+        }
+    }
