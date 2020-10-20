@@ -1,8 +1,5 @@
 import React from 'react';
 import './NavBar.css';
-
-
-
 function NavBar() {
     return (
        
@@ -22,8 +19,12 @@ function NavBar() {
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <li><a href="#login">Login</a></li>
-                        
                         </ul>
+
+                        <div>
+                            <li><a href="#contact">Contact</a></li>
+                        <li><a href="#login">Login</a></li>
+                        </div>
                         
                 </div>
             </nav>
