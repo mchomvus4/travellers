@@ -19,9 +19,7 @@ function NavBar() {
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <li><a href="#login">Login</a></li>
-                        </ul>
-
-                        
+                        </ul>       
                 </div>
             </nav>
             <div className="travel-text-box">
