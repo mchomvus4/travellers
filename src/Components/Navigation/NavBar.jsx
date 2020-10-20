@@ -21,10 +21,6 @@ function NavBar() {
                         <li><a href="#login">Login</a></li>
                         </ul>
 
-                        <div>
-                            <li><a href="#contact">Contact</a></li>
-                        <li><a href="#login">Login</a></li>
-                        </div>
                         
                 </div>
             </nav>
