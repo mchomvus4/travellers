@@ -1,0 +1,26 @@
+.destionation-section{
+    margin-top: 8rem;
+}
+
+.destination{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #d35400;
+}
+
+.top-destination{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+   
+}
+
+.images{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:10px;
+     margin-top: 6rem;
+}
+
