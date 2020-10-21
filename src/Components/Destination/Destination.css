@@ -25,3 +25,11 @@
     margin: 5rem  10rem 0rem;
 } 
 
+/* Media queries*/
+
+@media only screen and (max-width:375px){
+    .bg-images{
+        margin-left: 5rem;
+    
+} 
+}
