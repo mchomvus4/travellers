@@ -11,7 +11,7 @@ function Team() {
                 </div>
                 <div className="row">
                 <div className="col span-1-of-2">
-                    <img src={team} alt="team-photo" className="team"/>
+                    <img src={team} alt="team-picha" className="team"/>
                 </div>
                 <div className="col span-1-of-2">
                      <p className="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan quis orci in sagittis. Ut dolor mauris, tempus quis vestibulum non, feugiat non ipsum. Mauris euismod vulputate neque sit amet lobortis. Vivamus scelerisque at tellus dictum consectetur. Etiam suscipit vehicula tortor et aliquet.</p>
