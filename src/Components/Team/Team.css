@@ -1,0 +1,19 @@
+.team-section{
+    margin-top: 8rem;
+}
+.team-haeding{
+    font-size: 3rem;
+    text-transform: uppercase;
+     color: #d35400;
+}
+
+.team-top{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+   
+}
+.team{
+    width: 100%;
+}
