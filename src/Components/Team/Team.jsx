@@ -14,7 +14,11 @@ function Team() {
                     <img src={team} alt="team-picha" className="team"/>
                 </div>
                 <div className="col span-1-of-2">
-                     <p className="lorem-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan quis orci in sagittis. Ut dolor mauris, tempus quis vestibulum non, feugiat non ipsum. Mauris euismod vulputate neque sit amet lobortis. Vivamus scelerisque at tellus dictum consectetur. Etiam suscipit vehicula tortor et aliquet.</p>
+                        <p className="lorem-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                         when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                         It has survived not only five centuries,
+                         but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                         <a className="btn-btn-readmore" href ="#readmore">ReadMore</a>
                     </div>
                 </div>
