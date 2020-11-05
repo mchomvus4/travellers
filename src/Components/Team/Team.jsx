@@ -3,13 +3,13 @@ import './Team.css';
 import team from '../images/team.jpg';
 function Team() {
     return (
-        <section>
-            <div className="team-section">
+        <section className="section">
+            <div>
                 <div className="row">
                     <p className="team-haeding">About us</p>
                     <p className="team-top">We are experienced team</p>
                 </div>
-                <div className="row">
+                <div className="row team-section ">
                 <div className="col span-1-of-2">
                     <img src={team} alt="team-picha" className="team"/>
                 </div>
@@ -19,9 +19,8 @@ function Team() {
                          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                          It has survived not only five centuries,
                          but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <div className="btn-readmore">
-                            <a className="btn-btn-readmore" href="#readmore">Read more</a>
-                            </div>
+                            {/* <a className="btn-btn-readmore" href="#readmore">Read more</a> */}
+                        
                     </div>
                 </div>
             </div>
