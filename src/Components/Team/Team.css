@@ -75,6 +75,7 @@
          margin-right: 12rem;
           font-size: 1.3rem;
     }
+   
 
     /* .description{
         height: 20rem;
@@ -101,7 +102,7 @@
 }
 
  
-@media screen and (min-width:375px){
+@media screen and (max-width:375px){
     .sub-team{
         margin-top: 3rem;
     }
