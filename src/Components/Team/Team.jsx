@@ -26,7 +26,7 @@ function Team() {
             <div className="row sub-team">
                 <div className="col span-1-of-3">
                     
-                    <h4><i className="fa fa-car social "></i><span className="guide">1000+ Local Guide</span></h4>
+                    <h4><i className="fa fa-car social-car "></i><span className="guide">1000+ Local Guide</span></h4>
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                  <div className="col span-1-of-3">
@@ -34,7 +34,7 @@ function Team() {
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                  <div className="col span-1-of-3">
-                    <h4><i className="fa fa-smile-o social"></i><span className="client">96% Happy Clients</span></h4>
+                    <h4><i className="fa fa-smile-o social-o"></i><span className="client">96% Happy Clients</span></h4>
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
             </div>
