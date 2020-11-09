@@ -30,11 +30,11 @@ function Team() {
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                  <div className="col span-1-of-3">
-                    <h4><i className="fa fa-instagram social"></i><span className="locator">Experienced Locator</span></h4>
+                    <h4><i className="fa fa-map-marker social"></i><span className="locator">Experienced Locator</span></h4>
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                  <div className="col span-1-of-3">
-                    <h4><i className="fa fa-facebook-f social"></i><span className="client">96% Happy Clients</span></h4>
+                    <h4><i className="fa fa-smile-o social"></i><span className="client">96% Happy Clients</span></h4>
                     <p className="sub-team-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
             </div>
