@@ -63,10 +63,25 @@
     border-radius: 1rem;
     
 }
+
+.social-map{
+    color: #f3f1ef;
+    margin-right: 1rem;
+    font-size: 3rem;
+    background-color: #d35400;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+}
+.locator{
+  
+}
 .guide,
 .locator,
 .client{
     font-size: 1.5rem;
+    /* margin-left: 6rem; */
 }
 /* Media queries */
 
@@ -75,11 +90,6 @@
          margin-right: 12rem;
           font-size: 1.3rem;
     }
-   
-
-    /* .description{
-        height: 20rem;
-    } */
 }
 
 @media only screen and (min-width:768px){
@@ -109,5 +119,11 @@
 
 }
 
+@media screen and (max-width:425px){
+    .sub-team{
+        margin-top: 3rem;
+    }
+
+}
   
 
