@@ -11,7 +11,7 @@ function NavBar() {
                         <span className="logo">LOGO</span>
                         <span className="design">DESIGN</span>
                         </h4>
-                        <div className="openMenu"><i className="fa fa-bars bar-icon"></i></div>
+                        
                     <ul className="main-nav">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
