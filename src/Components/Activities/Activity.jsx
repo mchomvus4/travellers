@@ -20,42 +20,45 @@ function Activity() {
                         </div>
                         <div className="des">
                             <p className="para1"><b>There are many variations <br/>of passages of Lorem</b></p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <p className="para2">Lorem Ipsum is simply dummy text of<br/> the printing and typesetting industry<br/> Lorem Ipsum standard</p>
                            <span className="price">$250.00</span> <button>Book Now</button>
                         </div>
                    </div>
                 </div>
-                <div className="col span-1-of-3">
-                     <div className="card">
+               
+               <div className="col span-1-of-3">
+                    <div className="card">
                         <div className="image">
-                            <img src={image2} alt="hakuna picha"/>
+                            <img src={image1} alt="hakuna picha"/>
                         </div>
                         <div className="title">
                                <h3 className="location"><i className="fa fa-map-marker map"></i>Paris, FRANCE</h3>
                         </div>
                         <div className="des">
-                            <p>There are many variations of passages of Lorem</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <p className="para1"><b>There are many variations <br/>of passages of Lorem</b></p>
+                            <p className="para2">Lorem Ipsum is simply dummy text of<br/> the printing and typesetting industry<br/> Lorem Ipsum standard</p>
                            <span className="price">$250.00</span> <button>Book Now</button>
                         </div>
                    </div>
                 </div>
 
                 <div className="col span-1-of-3">
-                     <div className="card">
+                    <div className="card">
                         <div className="image">
-                            <img src={image3} alt="hakuna picha"/>
+                            <img src={image1} alt="hakuna picha"/>
                         </div>
                         <div className="title">
                                <h3 className="location"><i className="fa fa-map-marker map"></i>London, England</h3>
                         </div>
                         <div className="des">
-                            <p>There are many variations of passages of Lorem</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                            <p className="para1"><b>There are many variations <br/>of passages of Lorem</b></p>
+                            <p className="para2">Lorem Ipsum is simply dummy text of<br/> the printing and typesetting industry<br/> Lorem Ipsum standard</p>
                            <span className="price">$250.00</span> <button>Book Now</button>
                         </div>
                    </div>
                 </div>
+
+        
             </div>
 
            

@@ -27,7 +27,7 @@
 .price{
     float: left;
     position: absolute;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     font-size: 2rem;
     margin-left: 1rem;
     
@@ -65,7 +65,14 @@ button:hover{
 .para1{
     font-size: 1.4rem;
     text-align: justify;
-    margin-left: 2rem;
-    
-    
+    margin-left: 2rem; 
+    padding-bottom: 1rem;
 }
+
+.para2{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 2rem; 
+    line-height: 2rem;
+}
+
