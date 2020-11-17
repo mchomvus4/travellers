@@ -29,7 +29,7 @@ function Activity() {
                <div className="col span-1-of-3">
                     <div className="card">
                         <div className="image">
-                            <img src={image1} alt="hakuna picha"/>
+                            <img src={image2} alt="hakuna picha"/>
                         </div>
                         <div className="title">
                                <h3 className="location"><i className="fa fa-map-marker map"></i>Paris, FRANCE</h3>
@@ -45,7 +45,7 @@ function Activity() {
                 <div className="col span-1-of-3">
                     <div className="card">
                         <div className="image">
-                            <img src={image1} alt="hakuna picha"/>
+                            <img src={image3} alt="hakuna picha"/>
                         </div>
                         <div className="title">
                                <h3 className="location"><i className="fa fa-map-marker map"></i>London, England</h3>
