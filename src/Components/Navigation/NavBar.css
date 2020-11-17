@@ -82,11 +82,13 @@ header{
 .main-nav{
     float: right;
     list-style: none;
+    
 }
 .logo,
 .design,
 .main-nav{
     margin-top: 3rem;
+    position: sticky;
     
 }
 
