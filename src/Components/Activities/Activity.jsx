@@ -19,7 +19,7 @@ function Activity() {
                                <h3 className="location"><i className="fa fa-map-marker map"></i>New York, NY, USA</h3>
                         </div>
                         <div className="des">
-                            <p>There are many variations of passages of Lorem</p>
+                            <p className="para1"><b>There are many variations <br/>of passages of Lorem</b></p>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                            <span className="price">$250.00</span> <button>Book Now</button>
                         </div>
