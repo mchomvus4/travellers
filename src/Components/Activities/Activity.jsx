@@ -10,7 +10,7 @@ function Activity() {
             <p className="t-activities">trending activties</p>  
             
             <div className="row nafasi">
-                <div className="col span-1-of-3">
+                <div className="col span-1-of-3 card-main">
                     <div className="card">
                         <div className="image">
                             <img src={image1} alt="hakuna picha"/>
@@ -26,7 +26,7 @@ function Activity() {
                    </div>
                 </div>
                
-               <div className="col span-1-of-3">
+               <div className="col span-1-of-3 card-main">
                     <div className="card">
                         <div className="image">
                             <img src={image2} alt="hakuna picha"/>
@@ -42,7 +42,7 @@ function Activity() {
                    </div>
                 </div>
 
-                <div className="col span-1-of-3">
+                <div className="col span-1-of-3 card-main">
                     <div className="card">
                         <div className="image">
                             <img src={image3} alt="hakuna picha"/>
