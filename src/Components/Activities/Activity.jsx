@@ -8,7 +8,6 @@ function Activity() {
          <section className="activities-section">
             <p className="activity">activities</p>
             <p className="t-activities">trending activties</p>  
-            
             <div className="row nafasi">
                 <div className="col span-1-of-3 card-main">
                     <div className="card">
