@@ -5,7 +5,8 @@ function NavBar() {
        
         <div className="container">
         <header>
-            <nav>
+                <nav>
+                    
                 <div className="row">
                     <h4>
                         <span className="logo">LOGO</span>

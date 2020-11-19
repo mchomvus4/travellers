@@ -56,11 +56,7 @@ function Activity() {
                         </div>
                    </div>
                 </div>
-
-        
             </div>
-
-           
         </section>
     )
 }
