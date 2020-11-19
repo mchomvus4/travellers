@@ -1,0 +1,13 @@
+.testimonial{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #d35400;
+}
+
+.c-testimonial{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic; 
+}
+
