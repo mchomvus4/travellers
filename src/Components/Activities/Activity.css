@@ -87,13 +87,7 @@ button{
     cursor: pointer;
 
 }
-.border{
-    width: 350px;
-    height: 1px;
-    background: #d35400;
-   
 
-}
 
 @media screen and (max-width:960px){
    .column-activity{
