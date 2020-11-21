@@ -89,25 +89,4 @@ button{
 }
 
 
-@media screen and (max-width:960px){
-   .column-activity{
-       flex: 100%;
-       max-width: 80%;
-   }
 
-
-}
-
-@media screen and (max-width:600px){
-    .column-activity{
-        float: 100%;
-        max-width: 100%;
-    }
-    
-}
-
-@media screen and (max-width:768px){
-    .activity-row{
-       
-    }
-}
