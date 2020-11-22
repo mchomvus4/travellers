@@ -1,0 +1,54 @@
+.contact-section{
+    margin-top: 8rem;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/sea.jpg");
+    background-size: cover;
+    height: 15rem;
+    
+}
+
+.contact{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #d35400;
+}
+
+.update{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic; 
+    color: #fff;
+}
+
+.email-box{
+    color: #fff;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.email-box i{
+    background: #e67e22;
+    width: 4rem;
+    line-height: 4rem;
+    
+}
+
+.tbox,.btnsub{
+    border: none;
+    outline: none;
+}
+.tbox{
+    width: 0rem; 
+    transition: 0.6s; 
+}
+.email-box:hover > .tbox,.tbox:focus{
+    width: 26rem;
+    padding: 0 1rem;
+}
+.btnsub{
+    background:#e67e22;
+    color: #fff;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}

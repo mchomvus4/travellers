@@ -20,7 +20,7 @@ function Activity() {
                         <div className="des">
                             <p className="para1"><b>There are many variations <br/>of passages of Lorem</b></p>
                             <p className="para2">Lorem Ipsum is simply dummy text of<br/> the printing and typesetting industry<br/> Lorem Ipsum standard</p>
-                           <span className="price">$250.00</span> <button>Book Now</button>
+                           <span className="price">$250.00</span> <button className="btn">Book Now</button>
                         </div>
                    </div>
                 </div>
@@ -36,7 +36,7 @@ function Activity() {
                         <div className="des">
                             <p className="para1"><b>There are many variations <br/>of passages of Lorem</b></p>
                             <p className="para2">Lorem Ipsum is simply dummy text of<br/> the printing and typesetting industry<br/> Lorem Ipsum standard</p>
-                           <span className="price">$250.00</span> <button>Book Now</button>
+                           <span className="price">$250.00</span> <button className="btn">Book Now</button>
                         </div>
                    </div>
                 </div>
@@ -52,7 +52,7 @@ function Activity() {
                         <div className="des">
                             <p className="para1"><b>There are many variations <br/>of passages of Lorem</b></p>
                             <p className="para2">Lorem Ipsum is simply dummy text of<br/> the printing and typesetting industry<br/> Lorem Ipsum standard</p>
-                           <span className="price">$250.00</span> <button>Book Now</button>
+                           <span className="price">$250.00</span> <button className="btn">Book Now</button>
                         </div>
                    </div>
                 </div>

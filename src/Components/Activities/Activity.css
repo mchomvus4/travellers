@@ -35,7 +35,7 @@
 
 }
 
-button{
+.btn{
     margin-top: 1rem;
     background-color: #d35400;
     border: none;
@@ -46,7 +46,7 @@ button{
     font-size: 1.5rem;
 
 }
-button:hover{
+.btn:hover{
     background-color: #27ae60;
     transition: background-color 1s;
     cursor: pointer;
@@ -82,7 +82,7 @@ button:hover{
     .location{
       margin-right: 8rem;
     }
-    button{
+    .btn{
        margin-left: 22rem;
         font-size: 1.4rem;
     }
@@ -93,7 +93,7 @@ button:hover{
 @media only screen and (max-width:768px){
     .location{margin-right: 4rem;}
     .para2{text-align: left;}
-    button{
+    .btn{
             margin-left: 11rem;
     }
     
@@ -112,7 +112,7 @@ button:hover{
             font-size: 1.8rem;
             line-height: 2.5rem;
         }
-        button{margin-left: 16rem;}
+        .btn{margin-left: 16rem;}
 
         
     }
@@ -134,7 +134,7 @@ button:hover{
         }
 
 
-    button{
+    .btn{
         margin-left: 28rem;
     }
 
