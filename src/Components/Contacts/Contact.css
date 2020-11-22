@@ -1,8 +1,7 @@
 .contact-section{
-    margin-top: 8rem;
     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/sea.jpg");
     background-size: cover;
-    height: 15rem;
+    height: 20rem;
     
 }
 
@@ -10,6 +9,7 @@
     font-size: 3rem;
     text-transform: uppercase;
     color: #d35400;
+    padding-top: 4rem;
 }
 
 .update{
