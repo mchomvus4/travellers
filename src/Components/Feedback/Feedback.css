@@ -1,0 +1,68 @@
+.section-feedback{
+    background-size: cover;
+    height: 20rem;
+    
+}
+
+.contact-page{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #d35400;
+    padding-top: 4rem;
+}
+
+.cont-us{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic; 
+    margin-bottom: 3rem;
+}
+
+.feedback-form{
+    width: 60%;
+    margin: 0 auto;
+}
+input[type=text],
+input[type=email1],
+select,
+textarea{
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    height: 10rem;
+}
+
+input[type=submit]{
+    background-color: #e67e22;
+    border: none;
+    padding: 1rem 2.5rem;
+    color: #fff;
+    margin-left: 80%;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #435be6;
+}
+label{
+    font-size: 1.5rem;
+}
+*:focus{
+    outline: none;
+}
+
+@media only screen and (max-width:768px){
+    input[type=submit]{
+        margin-left: 70%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    input[type=submit]{
+      margin-left: 60%;
+    }
+}

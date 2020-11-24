@@ -6,6 +6,7 @@ import Team from './Components/Team/Team';
 import Activity from './Components/Activities/Activity';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/Contacts/Contact';
+import Feedback from './Components/Feedback/Feedback';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Team />
       <Activity />
       <Testimonial />
-      <Contact/>
+      <Contact />
+      <Feedback/>
     </div>
   );
 }
