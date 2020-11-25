@@ -7,6 +7,7 @@ import Activity from './Components/Activities/Activity';
 import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/Contacts/Contact';
 import Feedback from './Components/Feedback/Feedback';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
       <Activity />
       <Testimonial />
       <Contact />
-      <Feedback/>
+      <Feedback />
+      <Footer />
+    
     </div>
   );
 }

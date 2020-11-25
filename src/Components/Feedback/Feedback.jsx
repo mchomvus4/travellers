@@ -1,15 +1,6 @@
 import React, { Component } from 'react'
 import './Feedback.css';
-class Feedback extends Component {
-    constructor(props) {
-        super(props)
-
-        this.state = {
-            
-        }
-    }
-
-    render() {
+function Feedback(){
         return (
              <section className="section-feedback">
             <p className="contact-page">contact</p>
@@ -70,7 +61,7 @@ class Feedback extends Component {
         </section>
 
         )
-    }
+    
 }
 
 export default Feedback

@@ -19,18 +19,16 @@
     margin-bottom: 3rem;
 }
 
-.feedback-form{
-    width: 60%;
-    margin: 0 auto;
-}
+
 input[type=text],
 input[type=email1],
 select,
 textarea{
-    width: 100%;
+    width: 60%;
     padding: 0.7rem;
     border-radius: 0.3rem;
     border: 1px solid #ccc;
+    margin-right: 30%;
 }
 
 textarea{
@@ -42,7 +40,7 @@ input[type=submit]{
     border: none;
     padding: 1rem 2.5rem;
     color: #fff;
-    margin-left: 80%;
+    margin-left: 20%;
     cursor: pointer;
 }
 input[type=submit]:hover{
@@ -50,6 +48,7 @@ input[type=submit]:hover{
 }
 label{
     font-size: 1.5rem;
+    margin-left: 40%;
 }
 *:focus{
     outline: none;
@@ -57,12 +56,25 @@ label{
 
 @media only screen and (max-width:768px){
     input[type=submit]{
-        margin-left: 70%;
+        margin-left: 12%;
     }
+}
+@media only screen and (max-width:500px){
+    input[type=submit]{
+      margin-left: -1rem;
+     
+    }
+
+   
 }
 
 @media only screen and (max-width:480px){
-    input[type=submit]{
-      margin-left: 60%;
+        .span-2-of-3 {
+    width: 140%;
+}
+    label{
+        display: none;
+
     }
 }
+
